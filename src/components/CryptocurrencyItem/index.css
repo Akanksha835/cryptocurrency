@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.cryptocurrency-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+.currency-logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+.currency-name {
+  color: white;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.usd-and-euro-values-container {
+  display: flex;
+  align-items: center;
+}
+.currency-value {
+  color: white;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
